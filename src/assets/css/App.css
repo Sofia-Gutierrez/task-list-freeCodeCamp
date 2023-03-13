@@ -1,0 +1,72 @@
+:root {
+    --green: #a2ac6e;
+    --dark-green: #03750c;
+    --light-green: #cac8b0;
+    --wheat: #edebd7;
+    --blue: #001736;
+    --dark-cyan: #104377;
+    --dark-red: #7C0202; 
+    --yellow: #FEE06E;
+    --dark-yellow: #E6C95A; 
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    color: white;
+    margin-top: 40px;
+    background-color: #1b1b32;
+    font-family: Lato, sans-serif;
+}
+
+.App {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* freeCodeCampLogo */
+
+.container-freecodecamp-logo {
+    width: 100%;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.freecodecamp-logo {
+    width: 400px;
+    height: 50px;
+}
+
+/* Task List */
+
+.container-tasks-list {
+    width: 400px;
+    min-height: 500px;
+    background-color: var(--light-green);
+    padding: 25px;
+    margin: 10px;
+    border-radius: 26px;
+}
+
+.taks-title {
+    color: #1b1b32;
+    font-size: 25px;
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    margin: 20px 0;
+}
+
+@media (min-width: 768px) {
+    .container-tasks-list {
+        width: 600px;
+    }
+    
+}
